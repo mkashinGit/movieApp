@@ -1,12 +1,9 @@
 'use strict';
 
-const sum = 50;
+let number = prompt('Введите число, а я проверю четное оно или нечетное');
 
-switch (sum) {
-case 50:
-	console.log('ERROR');
-	break;
-default:
-	console.log('No error');
-	break;
+if(number %2 == 0) {
+	console.log('Число четное');
+} else {
+	console.log('Число нечетное');
 }
